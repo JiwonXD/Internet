@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>3주차 실습문제 2번</title>
+    <style>
+        th {text-align : center;} /*테이블 표의 머리부분인 th 부분만 중앙 정렬*/
+    </style>
+</head>
+<body>
+    <h1>영화 리뷰</h1>
+    <a href ="LoseMyMind.mp3" download>음원 다운로드</a> <!--href 하이퍼링크의 download 태그를 통해 음원파일 다운로드-->
+    <br>
+    <table border="1" width="1000" height="100">  <!--셀 테이블 생성, 테두리 선 굵기 1, 크기 지정-->
+        <tr>
+            <th>포스터</th>
+            <th>장르</th>
+            <th>제목</th>
+            <th>평점</th>
+            <th>감독</th>
+            <th>감상평</th>
+        </tr>
+        <tr>
+            <td><a href="https://search.naver.com/search.naver?where=nexearch&sm=top_hty&fbm=0&ie=utf8&query=f1+%EB%8D%94+%EB%AC%B4%EB%B9%84&ackey=epgizwhf" target="_blank"><img src="https://i.namu.wiki/i/gEUw1yYNr1DnQcSFk1_zcy4jsmTyocjzeccn3dqmJDTiP-f8v2KRSlIdSN8z17WNom8ADSM7dasa85LFRnPFC4kMbLOE8kIR8CKDwr6BJhpadL9lb_ZFEr8jQ4M8fci8zGurK5lqSDuNU7YxGy2kPA.webp" width="250" height="357"></a></td> <!--href target _blank 태그를 통해 이미지를 클릭시 새 탭에서 열리도록 하이퍼링크, 이미지 주소를 지정해서 따로 파일 포함 없이 바로 이미지가 표시되도록 함-->
+            <td>F1 더 무비</td>
+            <td>스포츠, 드라마, 액션</td>
+            <td>4.5</td>
+            <td>조셉 코신스키</td>
+            <td><ol type="1"> <!--순서가 있는 리스트에서 타입을 1로 설정해서 1,2,3 숫자 순서로 리스트가 표현되도록 함-->
+                <li>생동감 넘치게 속도감이 잘 표현되었음</li>
+                <li>영상미와 음향미가 풍부해서 극장에서 볼때 좋음</li>
+            </td>
+        </tr>
+        <tr>
+            <td><a href="https://search.naver.com/search.naver?where=nexearch&sm=top_sly.hst&fbm=0&acr=1&ie=utf8&query=%EC%A5%AC%EB%9D%BC%EA%B8%B0+%EC%9B%94%EB%93%9C%3A+%EC%83%88%EB%A1%9C%EC%9A%B4+%EC%8B%9C%EC%9E%91&ackey=gbm8na77" target="_blank"><img src="https://i.namu.wiki/i/B92f4vsffrFqcvuw9esUOxGkSRtOhLuL5zrB3sqQheN64zJm6YmU9jxMUxNhU0cI7nzJdGdwxp0oNffHjxRDCD9amXwfBtd1_Llh2oMUMZx8dOC0p3kysA_oHFCbz97B_5RsqqLa2vOq2VxC4P19dw.webp" width="250" height="357"></a></td>
+            <td>쥬라기월드: 새로운 시작</td>
+            <td>모험, 액션, 스릴러</td>
+            <td>2</td>
+            <td>가렛 에드워즈</td>
+            <td><ol type="A"> <!--순서가 있는 리스트에서 타입을 A로 설정해서 A, B, C 알파벳 순서로 리스트가 표현되도록 함-->
+                <li>공룡 영화라기보단 괴수물</li>
+                <li>등장인물들의 행동에 대한 동기부여가 작위적임</li>
+            </ol></td>
+        </tr>
+        <tr>
+            <td><a href="https://search.naver.com/search.naver?where=nexearch&sm=top_hty&fbm=0&ie=utf8&query=%EB%AF%B8%ED%82%A4+17&ackey=jbtfmew8" target="_blank"><img src="https://i.namu.wiki/i/AO7rLK7jXOHbv4NZU22ATbEJSTXOLOuGyUjkI4SaSjblfYyOd1D9Q-Dob5yMmfhTF2Az4C_eguEAccrmaDCqULdgJAL-LHGz63aqZaA2R0-5Cij-k-cgFjxhfIwYyRxgiq_OxjnFOQtxRwRJ7FVTnw.webp" width="250" height="357"></a></td>
+            <td>미키 17</td>
+            <td>SF, 블랙 코미디, 디스토피아</td>
+            <td>3</td>
+            <td>봉준호</td>
+            <td><ol type="i"> <!--순서가 있는 리스트에서 타입을 i로 설정해서 i, ii, iii 로마자 순서로 리스트가 표현되도록 함-->
+                <li>과장되게 익살적이고 무엇을 전달하고 싶은것인지가 난잡함</li>
+                <li>급전개를 풀어나가는 통역기라는 만능열쇠의 등장이 제대로 설명되지 않음</li>
+            </ol></td>
+        </tr>
+    </table>
+    <br>
+    <br>
+    <iframe src="http://cgv.co.kr/" width="1000" height="1400"></iframe> <!--iframe을 통해 외부-->
+</body>
+</html>
